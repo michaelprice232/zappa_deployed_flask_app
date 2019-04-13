@@ -11,10 +11,10 @@ Pre-requisite:
 * source venv/bin/activate
 * pip install -r requirements.txt
 * zappa init (for the first time config setup. Your AWS CLI credentials file needs to be configured)
-* zappa deploy <environment> (the environment name is defined in the previous step)
+* zappa deploy *environment* (the environment name is defined in the previous step)
 
 ## To update the stack once code changes have been made:
-* zappa update <environment>
+* zappa update *environment*
 
 ## To clean up the resources:
-* zappa undeploy <envrionment>
+* zappa undeploy *environment*
