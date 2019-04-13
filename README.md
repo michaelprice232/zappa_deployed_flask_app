@@ -18,3 +18,9 @@ Pre-requisite:
 
 ## To clean up the resources:
 * zappa undeploy *environment*
+
+## Developing locally:
+* python3 -m venv venv
+* source venv/bin/activate
+* pip install -r requirements.txt
+* python my_app.py
